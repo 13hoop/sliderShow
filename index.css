@@ -1,0 +1,25 @@
+
+        .banner {
+            margin: 0 auto;
+            width: 1000px;
+            background: #eeeeee;
+        }
+
+        .clearFix:after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+
+        .banner .wrapView .bottomDiv .indicator {
+            display: flex;
+            justify-content: center;
+        }
+
+        .banner .wrapView .bottomDiv .indicator .indicatorCell {
+            background: #e7e1cd;
+        }
+
+        .banner .wrapView .bottomDiv .indicator .indicatorCell.selected {
+            background: #c7171e;
+        }
